@@ -16,7 +16,7 @@
         {
             "label": "Build & Run",
             "type": "shell",
-            "command": "cd Source/Building && python Build.py -p true",
+            "command": "cd Source/Building && python Build.py -l True",
             "problemMatcher": [
                 "$gcc"
             ],
