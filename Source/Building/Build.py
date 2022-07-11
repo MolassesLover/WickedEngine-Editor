@@ -33,7 +33,7 @@ def Build():
         subprocess.run(['sh', 'Build.sh'], shell=False)
 
 
-def Play():
+def Launch():
     print("Running the Wicked Engine editor!")
     os.system('cd ../../Build/ && ./Editor')
 
@@ -45,6 +45,6 @@ if __name__ == "__main__":
     Build()
 
     if arguments.launchEditor == "True":
-        Play()
+        Launch()
 
 #endregion
